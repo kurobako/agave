@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+group 'io.github.kurobako.agave'
+version '0.0.1'
+
+dependencies {
+    compile 'com.google.code.findbugs:jsr305:3.0.2'
+    testCompile 'org.junit.vintage:junit-vintage-engine:5.2.0'
+}
